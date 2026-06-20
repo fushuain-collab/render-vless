@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: vless-node
+    runtime: docker
+    plan: free
+    envVars:
+      - key: UUID
+        value: e0240134-0986-4b92-a230-fdc8d1200456
+    healthCheckPath: /
